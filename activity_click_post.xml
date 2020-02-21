@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#000000">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        tools:context="com.example.ekene.blogzone.SinglePostActivity"
+        android:background="#FFCCCC">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/click_post_image"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/click_post_title"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="Post Title"
+            android:textColor="#100d0d"/>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Description"
+            android:id="@+id/click_post_description"/>
+        <Button
+            android:id="@+id/edit_post_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Edit blog"
+            android:background="#ADFF2F"
+            android:textColor="#fff"
+            android:textStyle="bold"/>
+
+
+        <Button
+            android:id="@+id/delete_post_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="#FFEA0404"
+            android:text="delete blog"
+            android:textColor="#fff"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
